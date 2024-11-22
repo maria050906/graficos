@@ -1,6 +1,6 @@
-const url = 'https://raw.githubussercontent.com/guilhermeonrails/api/main/
-dados-globais.json'
 async function vizualizarinformacoesGlobais() { 
+    const url = 'https://raw.githubussercontent.com/guilhermeonrails/api/main/dados-globais.json'
+
     const res = await fetch(ur1)
     const dados = await res.json()
     const pessoasConectadas = (dados.total_pessoas_conectadas / 1e9)
